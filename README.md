@@ -1,6 +1,7 @@
 # GraphQL-Server
 
-GraphQL Server that fetches weather data from a REST API.
+GraphQL Server with custom endpoint.
+
 This configuration is using [graphql-yoga](https://github.com/prisma/graphql-yoga).
 
 graphql-yoga is a fully-featured GraphQL Server with focus on easy setup, performance & great developer experience.
@@ -8,6 +9,8 @@ graphql-yoga is a fully-featured GraphQL Server with focus on easy setup, perfor
 The great thing about graphql-yoga is the fact that it comes with a playground client to run queries and mutations on the browser.
 
 ## Configuring the GraphQL server
+
+We will be using this server to fetch weather data from a REST API. But the endpoint can be changed to retrieve data from any REST API.
 
 * Clone this repo to your local machine.
 
