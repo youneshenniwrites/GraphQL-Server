@@ -69,3 +69,5 @@ You should see the following results.
 <img width="1437" alt="Playground" src="https://user-images.githubusercontent.com/26605247/55567572-dc080480-56f5-11e9-9fbf-066dc8a1de02.png">
 
 Now this GraphQL server is ready to be integrated with a GraphQL Client of your choice. You only need to pass the url endpoint to your client.
+
+For more info, check the following [repo](https://github.com/jtaylor1989/Weather-Apollo-Client) to see how to connect this back end to a React Native app using the Apollo GraphQL Client.
