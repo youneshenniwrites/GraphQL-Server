@@ -1,0 +1,23 @@
+type Query {
+  getForecast(woeid: Int!): Weather
+  }
+
+type Weather {
+  title: String
+  timezone: String
+  sun_rise: String
+  sun_set: String
+  consolidated_weather: [Days]
+}
+
+type Days {
+  applicable_date: String
+  weather_state_name: String
+  the_temp: Float
+  min_temp: Float
+  max_temp: Float
+  wind_speed: Float
+  humidity: Int
+  visibility: Float
+  air_pressure: Float
+}
